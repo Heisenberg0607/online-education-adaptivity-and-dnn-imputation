@@ -1,0 +1,60 @@
+{
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.3.1",
+    "pandas": "2.3.1",
+    "scipy": "1.16.2",
+    "sklearn": "1.7.2",
+    "matplotlib": "3.10.5",
+    "seaborn": "0.13.2",
+    "torch": "2.10.0+cpu",
+    "xgboost": "3.0.5",
+    "catboost": "1.2.8",
+    "optuna": "4.5.0"
+  },
+  "seed": 42,
+  "mask_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "rates": [
+    0.05,
+    0.15,
+    0.3
+  ],
+  "scenarios": {
+    "All13": [
+      "Gender",
+      "Age",
+      "Education Level",
+      "Institution Type",
+      "IT Student",
+      "Location",
+      "Load-shedding",
+      "Financial Condition",
+      "Internet Type",
+      "Network Type",
+      "Class Duration",
+      "Self Lms",
+      "Device"
+    ],
+    "Top5": [
+      "Financial Condition",
+      "Age",
+      "Class Duration",
+      "Gender",
+      "Institution Type"
+    ]
+  },
+  "top5_selection_model": "XGBoost_tuned",
+  "top5_selection_source": "permutation importance on validation subset within training",
+  "n_trials": 12,
+  "dnn_epochs": 160,
+  "dnn_patience": 18,
+  "matched_total_cells": 780,
+  "matched_top5_cells_per_column": 156,
+  "data_sha256": "1a5862cbd67026f6a70142150a1f9ead9beeb7c5b42c07f0cb237d6771e6ae5e"
+}

@@ -1,0 +1,13 @@
+# Tested with Python 3.13.2
+# Optional notebook interface: pip install jupyterlab
+numpy==2.3.1
+pandas==2.3.1
+scipy==1.16.2
+scikit-learn==1.7.2
+matplotlib==3.10.5
+seaborn==0.13.2
+torch==2.10.0
+xgboost==3.0.5
+catboost==1.2.8
+optuna==4.5.0
+ipython>=8

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "primary_scores": 48,
+  "repeated_scores": 60,
+  "matched_scores": 20,
+  "all13_primary_cells": 780,
+  "top5_primary_cells": 300,
+  "matched_cells": 780,
+  "group_profile_overlap": 0,
+  "observed_values_preserved": true,
+  "target_excluded_from_imputation": true,
+  "top5_selected_inside_training": true,
+  "figures": 95,
+  "executed_code_cells": 22,
+  "image_files_verified": 95,
+  "same_selected_column_masks_across_scenarios": true,
+  "primary_model_rows": 48,
+  "random_column_selection_removed": true
+}
